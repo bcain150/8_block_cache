@@ -1,0 +1,32 @@
+-- DON'T CHANGE THE TEST BENCH EXPECT AS NOTED IN PARA 1 BELOW
+-- PLOT THE WAVEFORMS FOR THIS TEST BENCH AS SHOWN IN THE EXAMPLE PLOTS ON THE WEB PAGE
+-- INCLUDE THE NCSIM.LOG FILE WITHOUT ANY EDITS
+
+The testbench is chip_test.vhd. It reads input from the file called chip_in.txt, it assumes that the chip_test.vhd and chip_in.txt are both in the run directory. Change this if required. Also change the chip component statement to match your chip ports. The test bench reads following from the input file in order:
+
+Rising edge of clock:
+  CPU Address    (8 bits)
+  CPU Data       (8 bits)
+  CPU Read/Write (1 bit)
+  Start          (1 bit)
+  Reset          (1 bit)
+
+Falling edge of clock:
+  Memory Data    (8 bits)
+
+------------------------------
+(1) The output is printed on screen, so look at your ncsim.log file for the output. Run using the following command, to generate the output
+
+   ncsim -input ncsim.run chip_test
+
+The output is printed both on rising edge and falling edge of clock, to check timing of your circuit. The first set of outputs for a given clock number is the falling edge values and the second set is the rising edge. This will be evident as the input from the CPU changes only on the rising edge.
+
+------------------------------
+
+(2) Plot the waveforms using this test_bench also. These are the same as given on the webpage as an example. Use the command
+
+   ncsim -gui chip_test
+
+and then run until 370 ns.
+
+------------------------------

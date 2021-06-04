@@ -1,0 +1,37 @@
+-- DON'T CHANGE THE TEST BENCH EXPECT AS NOTED IN PARA 1 BELOW
+-- PROVIDE THE NCSIM.LOG FILE WITHOUT ANY EDITS
+-- DON'T PRINT WAVEFORMS FOR THIS TEST
+
+The testbench is chip_full_test.vhd. It reads input from the file called chip_full_in.txt, it assumes that the chip_test.vhd and chip_in.txt are both in the run directory. Change this if required. Also change the chip component statement to match your chip ports. The test bench reads following from the input file in order:
+
+Rising edge of clock:
+  A line of text.
+  CPU Address    (8 bits)
+  CPU Data       (8 bits)
+  CPU Read/Write (1 bit)
+  Start          (1 bit)
+  Reset          (1 bit)
+
+Falling edge of clock:
+  Memory Data    (8 bits)
+
+
+LOOK AT THE INPUT FILE FOR THE DESCRIPTION OF THE OPERATION BEING PERFORMED.
+------------------------------
+(1) The output is printed on screen, so look at your ncsim.log file for the output. Run using the following command, to generate the output
+
+   ncsim -input ncsim.run chip_full_test
+
+The output is printed only for a set of conditions:
+-- When a new operation is given, and it's a negative edge of clock
+-- when busy changes to either 1 or 0
+-- when memory enable changes to either 1 or 0
+
+The clock count, gives the count of the negative edge of the clock from the beginning of the simulation.
+
+------------------------------
+
+(2) DON'T TRY TO PRINT OUTPUT WAVEFORMS FOR THIS TEST. THIS IS A MASSIVE TEST BENCH. EVEN THE OUTPUT ABOVE HAS BEEN LIMITED TO A FEW LINES.
+
+
+------------------------------

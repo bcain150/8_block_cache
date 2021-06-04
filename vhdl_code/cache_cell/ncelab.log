@@ -1,0 +1,19 @@
+ncelab: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncelab	15.20-s035: Started on Nov 09, 2020 at 21:46:03 EST
+ncelab
+    -messages
+    -access rwc
+    -cdslib /afs/umbc.edu/users/b/c/bcain1/home/315/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/b/c/bcain1/home/315/cadence/hdl.var
+    cache_cell_test
+
+ncelab: *W,ARCMRA: Elaborating the VHDL.CACHE_CELL_TEST:TEST, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+	Building instance specific data structures.
+	Design hierarchy summary:
+		     Instances  Unique
+		Components:  5       4
+		Processes:   5       5
+		Signals:     6       6
+	Writing initial simulation snapshot: VHDL.CACHE_CELL_TEST:TEST
+TOOL:	ncelab	15.20-s035: Exiting on Nov 09, 2020 at 21:46:03 EST  (total: 00:00:00)

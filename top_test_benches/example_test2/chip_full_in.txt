@@ -1,0 +1,1918 @@
+- Reset 
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+1
+ZZZZZZZZ
+- Do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 1'st block
+00000000
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00000011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 2'nd block
+00100101
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00010011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 3'rd block
+01001010
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00100011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 4'th block
+01101111
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+00110011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 5'th block
+10010000
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01000011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 6'th block
+10110101
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01010011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 7'th block
+11011010
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01100011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read miss 8'th block
+11111111
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Figure out it's a miss, mem enable high, wait cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 3
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 4
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 5
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 6
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 7
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Wait cycle 8
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- 00 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110000
+- 00 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110000
+- 01 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110001
+- 01 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110001
+- 10 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110010
+- 10 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110010
+- 11 byte in, cycle 1
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110011
+- 11 byte in, cycle 2
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+01110011
+- Write done let the cache read
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Cache read, correct data should be out for 1 clock cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, give next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 0, byte 0
+00000000
+00001100
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 1, byte 1
+00100101
+00011100
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 2, byte 2
+01001010
+00101100
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 3, byte 3
+01101111
+00111100
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 4, byte 0
+10010000
+01001111
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 5, byte 1
+10110101
+01011111
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 6, byte 2
+11011010
+01101111
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write hit, block 7, byte 3
+11111111
+01111111
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's hit
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Let it write
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 0 byte 0, previously written value
+00000000
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 1 byte 1, previously written value
+00100101
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 2 byte 2, previously written value
+01001010
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 3 byte 3, previously written value
+01101111
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 4 byte 0, previously written value
+10010000
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 5 byte 1, previously written value
+10110101
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 6 byte 2, previously written value
+11011010
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 7 byte 3, previously written value
+11111111
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 0, byte 0
+11100000
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 1, byte 1
+00000101
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 2, byte 2
+00001010
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 3, byte 3
+00001111
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 4, byte 0
+00010000
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 5, byte 1
+00010101
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 6, byte 2
+00011010
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Write miss, block 7, byte 3
+00011111
+00000000
+0
+1
+0
+ZZZZZZZZ
+- Figure out it's miss
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- do nothing
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Busy low, write done, give command, next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 0 byte 0, previously written value
+00000000
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 1 byte 1, previously written value
+00100101
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 2 byte 2, previously written value
+01001010
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 3 byte 3, previously written value
+01101111
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 4 byte 0, previously written value
+10010000
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 5 byte 1, previously written value
+10110101
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 6 byte 2, previously written value
+11011010
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read hit, block 7 byte 3, previously written value
+11111111
+ZZZZZZZZ
+1
+1
+0
+ZZZZZZZZ
+- Busy goes low, data available
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ
+- Read data, next command on next cycle
+ZZZZZZZZ
+ZZZZZZZZ
+Z
+0
+0
+ZZZZZZZZ

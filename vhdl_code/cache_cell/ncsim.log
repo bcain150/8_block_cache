@@ -1,0 +1,14 @@
+ncsim: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncsim	15.20-s035: Started on Nov 09, 2020 at 21:52:27 EST
+ncsim
+    -input cache_cell_ncsim.run
+    -messages
+    -cdslib /afs/umbc.edu/users/b/c/bcain1/home/315/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/b/c/bcain1/home/315/cadence/hdl.var
+    cache_cell_test
+
+Loading snapshot vhdl.cache_cell_test:test ..............
+ncsim: *E,DLCSMD: Dependent checksum entity VHDL.CACHE_CELL_TEST (AST) doesn't match with the checksum that's in the header of: snapshot vhdl.cache_cell_test:test (SSS).
+
+ncsim: *F,NOSIMU: Errors initializing simulation 'cache_cell_test'.
+TOOL:	ncsim	15.20-s035: Exiting on Nov 09, 2020 at 21:52:27 EST  (total: 00:00:00)

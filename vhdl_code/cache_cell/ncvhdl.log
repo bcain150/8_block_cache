@@ -1,0 +1,19 @@
+ncvhdl: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvhdl	15.20-s035: Started on Nov 10, 2020 at 11:46:25 EST
+ncvhdl
+    -messages
+    -linedebug
+    -cdslib /afs/umbc.edu/users/b/c/bcain1/home/315/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/b/c/bcain1/home/315/cadence/hdl.var
+    -smartorder
+    cache_cell_test.vhd
+
+cache_cell_test.vhd:
+      writeline(outfile, "in  out");
+                                 |
+ncvhdl_p: *E,ALTYMM (cache_cell_test.vhd,60|33): subprogram call or operator argument type mismatch 87[4.3.3.2] 93[4.3.2.2].
+      write(buf, "    ");
+          |
+ncvhdl_p: *W,WAMBG1 (cache_cell_test.vhd,70|10): expression is ambiguous - using WRITE procedure with STRING parameter.
+	errors: 1, warnings: 1
+TOOL:	ncvhdl	15.20-s035: Exiting on Nov 10, 2020 at 11:46:25 EST  (total: 00:00:00)
